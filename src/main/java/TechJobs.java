@@ -124,8 +124,19 @@ public class TechJobs {
         } else {
             System.out.println("still implementing");
             for (Map jobs : someJobs) {
-                System.out.println(jobs);
-            }
+                // test to test for loop
+                //System.out.println(jobs);
+                System.out.println("*****\n");
+                jobs.forEach((key, value) -> { // IntelliJ sugggested this over what I have lol
+                    //ArrayList<HashMap<String, String>> allJobs
+                    System.out.println(key + " : " + value);
+                });
+                System.out.println("\n");
+                System.out.println("*****\n");
         }
     }
 }
+}
+
+// for (Map.Entry<String, String> jobEntry : jobs.entrySet()) {
+// for(Map.Entry<String, String> jobValue: job.entrySet()){
