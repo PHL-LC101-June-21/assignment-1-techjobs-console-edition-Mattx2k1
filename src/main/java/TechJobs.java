@@ -123,6 +123,9 @@ public class TechJobs {
             System.out.println("No results returned");
         } else {
             System.out.println("still implementing");
+            for (HashMap jobs : someJobs) {
+                System.out.println(jobs);
+            }
         }
     }
 }
