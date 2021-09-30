@@ -126,12 +126,12 @@ public class TechJobs {
             for (Map jobs : someJobs) {
                 // test to test for loop
                 //System.out.println(jobs);
-                System.out.println("*****\n");
-                jobs.forEach((key, value) -> { // IntelliJ sugggested this over what I have lol
+                System.out.println("*****");
+                jobs.forEach((key, value) -> { // IntelliJ suggested this over what I have lol
                     //ArrayList<HashMap<String, String>> allJobs
-                    System.out.println(key + " : " + value);
+                    System.out.println(key + ": " + value);
                 });
-                System.out.println("\n");
+                //System.out.println("\n");
                 System.out.println("*****\n");
         }
     }
