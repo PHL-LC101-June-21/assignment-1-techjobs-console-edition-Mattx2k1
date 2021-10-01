@@ -131,7 +131,7 @@ public class TechJobs {
                         jobInfo += (jobEntry.getKey() +": " + jobEntry.getValue() + "\n");
 
             }
-                jobInfo += "*****";
+                jobInfo += "*****\n";
                 System.out.println(jobInfo);
         }
     }
