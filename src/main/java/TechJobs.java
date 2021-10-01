@@ -122,7 +122,7 @@ public class TechJobs {
         if (someJobs.size() == 0) {
             System.out.println("No results returned");
         } else {
-            System.out.println("still implementing");
+            //System.out.println("still implementing");
             for (HashMap<String, String> jobs : someJobs) {
 
                 String jobInfo = "*****\n";
