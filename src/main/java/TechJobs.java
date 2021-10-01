@@ -128,7 +128,7 @@ public class TechJobs {
                 String jobInfo = "*****\n";
                     for (Map.Entry<String, String> jobEntry : jobs.entrySet()) {
 
-                        jobInfo += (jobEntry.getKey() +":" + jobEntry.getValue() + "\n");
+                        jobInfo += (jobEntry.getKey() +": " + jobEntry.getValue() + "\n");
 
             }
                 jobInfo += "*****";
