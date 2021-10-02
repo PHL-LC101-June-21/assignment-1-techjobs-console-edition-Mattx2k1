@@ -103,7 +103,7 @@ public class JobData {
         for (HashMap<String, String> row : allJobs) {
             for (String apartmentKey : row.keySet()) {
                 String aValue = row.get(apartmentKey);
-                if (aValue.contains(value)) {
+                if (aValue.contains(value.toUpperCase())) {
                     jobs.add(row);
                     break;
                 }
